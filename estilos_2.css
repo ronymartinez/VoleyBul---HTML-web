@@ -1,0 +1,476 @@
+body{
+	font-family: Verdana;
+}
+#contenedor {
+	width: 960px;
+	height: 660px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	width: 960px;
+	height: 156px;
+}
+
+#marca {
+	width: 755px;
+	height: 156px;
+	float: left;
+}
+#menu{
+	width:205px;
+	height:156px;
+	float: right; 
+}
+ul.botonera{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul.botonera li a {
+	display: block;
+	width: 203px;
+	height: 45px;
+	margin-bottom: 10px;
+	background-color: #1297fc;
+	color: #fcfcfc;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	line-height: 50px;
+	font-family: 'Lemonada', cursive;
+	border-radius: 15px;
+	box-shadow:inset 3px 3px 3px #fa0000;
+
+}
+ul.botonera li a:hover {
+	background-color: #eb0e02;
+	color: #000;
+	box-shadow:inset 3px 3px 3px #1297fc;
+
+}
+
+article {
+	background-image: url(imagenes/fondo.jpg);
+	width: 960px;
+	height: 500px;
+	float: left;
+	margin-top: 10px;
+	color: #fcfcfc;
+}
+#izquierda{
+	width: 230px;
+	height: 450px;
+	margin-top: 28px;
+	margin-left: 22px;
+	position: absolute;
+	display: inline;
+}
+#video{
+	margin-top: 10px;
+}
+#audio{
+	margin-top: 180px;
+}
+h4{
+	color: #fff;
+	text-shadow: 5px 5px 5px #000000;
+}
+#centro{
+	width: 455px;
+	height: 450px;
+	position: absolute;
+	display: inline;
+	margin-top: 28px;
+	margin-left: 253px;
+}
+h2{
+	margin-top: 0px;
+	font-size: 40px;
+	color: #00c45f;
+	font-family: 'Lemonada', cursive;
+	text-shadow:1px 3px 6px #000000;
+
+}
+#texto{
+	text-align: justify;
+	font-size: 14px;
+	color: #0005ab;
+	-webkit-text-stroke:1px;
+	-webkit-text-stroke-color:#0005ab;
+	text-shadow:-2px 4px 4px #fff;
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+#volver{
+	width: 150px;
+	height: 40px;
+	background-color: #db0902;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 30%;
+	margin-top: 10%;
+	color: #fff;
+	border-style: solid;
+	border-radius: 10px;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+#volver a{
+	text-decoration: none;
+}
+#volver:hover {
+	background-color: #0005ab;
+
+}
+#volver a:hover {
+	background-color: #0005ab;
+	color: #fcfcfc;
+}
+#derecha{
+	width: 230px;
+	height: 450px;
+	position: absolute;
+	display: inline;
+	margin-left: 710px;
+	margin-top:28px;
+	text-align: right;
+}
+
+footer {
+	background-image: url(imagenes/footer.jpg);
+	width: 960px;
+	height: 120px;
+	clear: both;
+	float: right;
+
+}
+#copyright{
+	margin-top: 20px;
+	font-style: italic;
+}
+
+#redes{
+	width:150px;
+	height:80px;
+	margin-top: 0px;
+}
+ul.redes2 li a {
+
+	display: block;
+	width: 150px;
+	height: 20px;
+	margin-bottom: 5px;
+	background-color: #eb0e02;
+	border: 1px #CC2EFA dashed;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	line-height: 17px;
+	font-family: Verdana;
+	border-radius: 10px;
+
+}
+
+ul.redes2 li a:hover {
+	background-color: #1297fc;
+	color: #fcfcfc;
+}
+
+/*
+*
+*
+*	PRIMER RESPONSIVE
+*
+*
+*/
+
+
+@media handheld, screen and (min-width: 600px) and (max-width: 1023px){
+#contenedor {
+	width: 580px;
+	height: auto;
+
+}
+header {
+	width: 580px;
+	height: auto;
+}
+
+#marca {
+	width: 430px;
+	height: auto;
+	float: left;
+}
+#menu{
+	width:150px;
+	height:auto;
+}
+ul.botonera{
+
+}
+ul.botonera li a {
+
+	width: 150px;
+	height: auto;
+	margin-bottom: 5px;
+	line-height: 30px;
+	font-size: 13px;
+}
+
+article {
+	background-image: url(imagenes/fondo.jpg);
+	width: 580px;
+	height: auto;
+	float: none;
+	clear: both;
+
+}
+
+#izquierda{
+	width: 200px;
+	height: auto;
+	margin-top: 28px;
+	margin-left: auto;
+
+}
+#video{
+	margin-top: 55px;
+	margin-left: 10px;
+}
+#audio{
+	margin-top: 50px;
+	margin-left: 5px;
+	text-align: center;
+}
+#audio audio{
+	width: 200px;
+	height: 30px;
+}
+
+h4{
+	color: #fff;
+	text-shadow: 5px 5px 5px #000000;
+}
+#centro{
+	width: 380px;
+	height: auto;
+	position: relative;
+
+}
+h2{
+	margin-top: 0px;
+	margin-right: 5px;
+	font-size: 30px;
+	text-align: center;
+	color: #00c45f;
+	font-family: 'Lemonada', cursive;
+}
+#texto{
+	text-align: justify;
+	margin-left: 220px;
+	margin-right: 5px;
+	
+
+}
+#volver{
+	width: 20%;
+	height: auto;
+	line-height: 30px;
+	margin-left: 50%;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#derecha{
+	display: none;
+}
+
+footer {
+	background-image: url(imagenes/footer2.jpg);
+	width: 580px;
+	height: 120px;
+	clear: both;
+	float: none;
+}
+#copyright{
+	margin-top: 20px;
+	font-style: italic;
+	font-size: 14px;
+
+}
+
+
+#redes{
+	width:100px;
+	height:auto;
+
+}
+ul.redes2 li a {
+
+	width: 100px;
+	height: auto;	
+	font-size: 12px;
+
+}
+}
+
+/*
+*
+*
+*	SEGUNDO RESPONSIVE
+*
+*
+*/
+
+
+
+@media handheld, screen and (max-width: 599px){
+#contenedor {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	width: 100%;
+	height: auto;
+}
+
+#marca {
+	width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
+#menu{
+	width:70%;
+	height:auto;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+ul.botonera{
+
+}
+ul.botonera li a {
+	width: 90%;
+	height: auto;
+	margin-bottom: 5px;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+article {
+	background-image: url(imagenes/fondo.jpg);
+	width: 100%;
+	height: auto;
+	float: none;
+	clear: both;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#izquierda{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+
+}
+#video {
+	margin-top: 10%;
+	margin-left: 20%;
+	position: relative;
+}
+
+#audio{
+	margin-top: 50px;
+	margin-left: 5px;
+	text-align: center;
+}
+#audio audio{
+	width: 200px;
+	height: 30px;
+}
+
+h4{
+	color: #fff;
+	text-shadow: 5px 5px 5px #000000;
+}
+#centro{
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: none;
+	display: inline;
+	margin-left: auto;
+
+}
+h2{
+	margin-top: 0px;
+	margin-right: 5px;
+	font-size: 30px;
+	text-align: center;
+	color: #00c45f;
+	font-family: 'Lemonada', cursive;
+
+}
+#texto{
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 13px;
+}
+#volver{
+	width: 20%;
+	height: auto;
+	line-height: 30px;
+	margin-left: 40%;
+}
+
+#derecha{
+	display: none;
+}
+
+footer {
+	background-image: url(imagenes/footer3.jpg);
+	width: 100%;
+	height: 115px;
+	clear: both;
+	float: none;
+}
+#copyright{
+	margin-top: 20px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+#redes{
+	width:100px;
+	height:auto;
+	float: left;
+
+}
+ul.redes2 li a {
+	width: 100px;
+	height: auto;	
+	font-size: 12px;
+
+}
+
+}
+
+
+
+
+
+
+
